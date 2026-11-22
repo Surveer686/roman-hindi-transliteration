@@ -221,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Project-specific rules ----
+# Not part of this project
+not/
+t3/
+# No data and no large files are pushed (share them outside git)
+trainer2/data/
+*.pt
+trainer2/runs/*/prepared.json
+trainer2/runs/*/test_predictions.jsonl
+trainer2/runs/smoke_indicxlit/
