@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trainer2"
+version = "0.1.0"
+description = "Roman-to-Devanagari transliteration: GRU, Transformer and IndicXlit compared on dictionary words and tweet-style text."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "ctranslate2>=4.0",
+    "huggingface_hub>=0.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+translit-run = "trainer2.cli.pipeline:main"
+translit-eval-tweets = "trainer2.cli.evaluate_tweets:main"
+
+[tool.setuptools.packages.find]
+include = ["trainer2*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["trainer2/runs", "trainer2/report", "t3"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
