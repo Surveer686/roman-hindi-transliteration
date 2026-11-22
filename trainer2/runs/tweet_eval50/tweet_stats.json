@@ -1,0 +1,11 @@
+{
+  "tweet_path": "C:\\Users\\SHURVEER\\Downloads\\trainer2 (2)\\trainer2\\runs\\tweet_eval50\\tweets50.jsonl",
+  "dev_path": null,
+  "n_tweets": 50,
+  "n_scored_tokens": 493,
+  "n_skipped_tweets": 0,
+  "n_dev_tweets": 0,
+  "n_dev_pairs": 0,
+  "n_skipped_dev_tweets": 0,
+  "source": "human-written gold, roman_hindi_tweet_eval_50.csv"
+}

@@ -1,0 +1,204 @@
+
+===== added noise level 0.0 =====
+id: tweet-1
+tweet: yaar aaj ka din hi kharab tha
+input: yaar aaj ka din hi kharab tha
+gold: यार आज का दिन ही खराब था
+  GRU-clean          यार अज का दिन ही खरब था
+  GRU-noisy          यार आज का दीन ही खरब था
+  Transformer-clean  यार आज का डिन ही खरब था
+  Transformer-noisy  यार आज का डिन ही खरब था
+  IndicXlit-raw      यार ईएजे का इदिन ही खराब था
+
+id: tweet-2
+tweet: bhai ye movie expected se kaafi achhi nikli
+input: bhai ye movie expected se kaafi achhi nikli
+gold: भाई ये मूवी एक्सपेक्टेड से काफी अच्छी निकली
+  GRU-clean          भाई ये मोवी एक्सपेक्टेड से काफी छी निकली
+  GRU-noisy          भाई ये मोवी एक्सपेक्टेड से काफी अछी निकली
+  Transformer-clean  भाई ये मोवी एक्सपेक्टेड एसई काफी अछी निकली
+  Transformer-noisy  भाई ये मोवी एक्सपेक्टेड एसई काफी अछी निकली
+  IndicXlit-raw      भाई ये अमूवी एक्सपेक्टेड एसई काफी अछि निकली
+
+id: tweet-3
+tweet: kal se pakka gym jaana hai bas aaj last cheat day
+input: kal se pakka gym jaana hai bas aaj last cheat day
+gold: कल से पक्का जिम जाना है बस आज लास्ट चीट डे
+  GRU-clean          कल से पक्का जीआईएम जाना हाई बीएसएस अज लास्ट चीट डे
+  GRU-noisy          काल से पक्का जीएम जाना हाई बीएएस आज लस्त चीट दाय
+  Transformer-clean  कल एसई पक्का जीआईएम जाना है बास आज लास्ट चीट डे
+  Transformer-noisy  काल एसई पक्का जीआईएम जाना है बास आज लास्ट चेट डे
+  IndicXlit-raw      काल एसई अक्का जिम जाना है बीएएस ईएजे लास्ट खीट दे
+
+id: tweet-4
+tweet: itni garmi mein bahar jaane ka mann hi nahi karta
+input: itni garmi mein bahar jaane ka mann hi nahi karta
+gold: इतनी गर्मी में बाहर जाने का मन ही नहीं करता
+  GRU-clean          इटनी गर्मी में बहर जाने का मान ही नाही कर्ता
+  GRU-noisy          इटनी गर्मी में बहर जाने का मानों ही नाही करता
+  Transformer-clean  इटनी गरमी मेइन बहर जाने का मन्न ही नही करता
+  Transformer-noisy  आईटीएनआई गरमी में बहर जाने का मैन ही नाही करता
+  IndicXlit-raw      आईटीएनआई गर्मी में बहार जाने का मन्न ही नही करता
+
+id: tweet-5
+tweet: mood off hai but reason samajh nahi aa raha
+input: mood off hai but reason samajh nahi aa raha
+gold: मूड ऑफ है बट रीजन समझ नहीं आ रहा
+  GRU-clean          मूद ओएफएफ हाई बट रियासन समझ नाही आ रहा
+  GRU-noisy          मूद ओएफएफ हाई बुट रीजन समझ नाही आा राहा
+  Transformer-clean  मूद ओएफएफएफ है बुट रीजन समझ नही आ रहा
+  Transformer-noisy  मूड ओएफएफ है बुट रीजन समझ नाही एआईए रहा
+  IndicXlit-raw      मूड ओएफएफ है बट रिजन समझ नही ए रहा
+
+id: tweet-6
+tweet: finally assignment submit kar diya ab sukoon milega
+input: finally assignment submit kar diya ab sukoon milega
+gold: फाइनली असाइनमेंट सबमिट कर दिया अब सुकून मिलेगा
+  GRU-clean          फाइनली असाइनमेंट सबमित कर दिया एबीबी सुकून मिलेगा
+  GRU-noisy          फिनली एसिंगमेंट सबमिट कर् दिया अब सुकून मिलेगा
+  Transformer-clean  फाइनली एसिग्नमेंट सबमित कर दिया एबी सुकून मिलेगा
+  Transformer-noisy  फिनली एसिग्नमेंट सबमित कर दिया एबीए सुकून मिलेगा
+  IndicXlit-raw      फाइनली असाइनमेंट सबमिट कर दिया एबी सुकून मिलेगा
+
+id: tweet-7
+tweet: kuch log online bahut sweet hote hain real life mein bilkul alag
+input: kuch log online bahut sweet hote hain real life mein bilkul alag
+gold: कुछ लोग ऑनलाइन बहुत स्वीट होते हैं रियल लाइफ में बिल्कुल अलग
+  GRU-clean          कुच लोग ओनलाइन बहुत स्वीत होते हैन रीयल लाइफ में बिल्कुल अलग
+  GRU-noisy          कुच लोग ओनलाइन बहुत स्वीत होटे हैन रीअल लाइफ में बिलकुल अलग
+  Transformer-clean  कुच लोग ओनलाइन बहुत स्वीत होटे हैन रियल लाइफ मेइन बिलकुल अलग
+  Transformer-noisy  कुच लोग ओनलाइन बहुत स्वीत होटे हैन रियल लाइफ में बिलकुल अलाग
+  IndicXlit-raw      कुच लॉग ओनलाइन बहुत स्वीट होते हैं रियल लाइफ में अबिलकुल अलग
+
+id: tweet-8
+tweet: bhai network phir se chala gaya meeting ke beech mein
+input: bhai network phir se chala gaya meeting ke beech mein
+gold: भाई नेटवर्क फिर से चला गया मीटिंग के बीच में
+  GRU-clean          भाई नेटवर्क फिर से चला गया मीटिंग ई बीच में
+  GRU-noisy          भाई नेटवर्क फिर से चाला गया मीटिंग के बीच में
+  Transformer-clean  भाई नेटवर्क फिर एसई चला गया मीटिंग के बीच मेइन
+  Transformer-noisy  भाई नेटवर्क फिर एसई चला गया मीटिंग के बीच में
+  IndicXlit-raw      भाई नेटवर्क फिर एसई अचला गया मीटिंग के बीच में
+
+id: tweet-9
+tweet: chai aur baarish ka combination unbeatable hai
+input: chai aur baarish ka combination unbeatable hai
+gold: चाय और बारिश का कॉम्बिनेशन अनबीटेबल है
+  GRU-clean          चाई और बारिश का कंबिनेशन अनबीटेबल हाई
+  GRU-noisy          चाई और बारिश का कॉम्बिनेशन अनबीटेबल हाई
+  Transformer-clean  चै और बारिश का कंबिनेशन अनबीटेबल है
+  Transformer-noisy  चाई और बारिश का कंबिनेशन अनबीटेबल है
+  IndicXlit-raw      चाई यूआर बारिश का अम्बिनेशन अनबीटेबल है
+
+id: tweet-10
+tweet: sach bolu toh mujhe ye trend bilkul samajh nahi aaya
+input: sach bolu toh mujhe ye trend bilkul samajh nahi aaya
+gold: सच बोलूँ तो मुझे ये ट्रेंड बिल्कुल समझ नहीं आया
+  GRU-clean          सच बोलू तोह मुझे ये ट्रेंड बिल्कुल समझ नाही आया
+  GRU-noisy          सच बोलू तोह मुझे ये ट्रेंड बिलकुल समझ नाही आया
+  Transformer-clean  सच बोलू तोह मुझे ये ट्रेंड बिलकुल समझ नही आया
+  Transformer-noisy  सच बोलू तोह मुझे ये ट्रेंड बिलकुल समझ नाही आया
+  IndicXlit-raw      सच बोलू इतोह मुझे ये ट्रेंड अबिलकुल समझ नही आया
+
+
+===== added noise level 0.3 =====
+id: tweet-1
+tweet: yaar aaj ka din hi kharab tha
+input: yar az kaa din hii kharaabbbb tha
+gold: यार आज का दिन ही खराब था
+  GRU-clean          यार अज़ का दिन ही खराबब था
+  GRU-noisy          यार अज़ का दीन ही खरब था
+  Transformer-clean  यर अज़ का डिन ही खराब्ब था
+  Transformer-noisy  यार अज़ का डिन ही खराब था
+  IndicXlit-raw      यार ज़ का इदिन ही खराबब्ब था
+
+id: tweet-2
+tweet: bhai ye movie expected se kaafi achhi nikli
+input: bhaai yeeee mowie expected see kaapih achhi nekli
+gold: भाई ये मूवी एक्सपेक्टेड से काफी अच्छी निकली
+  GRU-clean          भाई यीई मोवी एक्सपेक्टेड सीई कापिह छी नेकली
+  GRU-noisy          भाई ये मोवी एक्सपेक्टेड सीआई कपिह अछी नेकली
+  Transformer-clean  भाई यी मावी एक्सपेक्टेड सी कापिह अछी नेकली
+  Transformer-noisy  भाई ये मोवी एक्सपेक्टेड सेई कापीह अछी नेकली
+  IndicXlit-raw      भाई यीई मूवी एक्सपेक्टेड सी कापिः अछि नेकली
+
+id: tweet-3
+tweet: kal se pakka gym jaana hai bas aaj last cheat day
+input: kall se pakkaa gymm jan hae bas aaaz lasttt chat day
+gold: कल से पक्का जिम जाना है बस आज लास्ट चीट डे
+  GRU-clean          काल से पक्का जिम्म जान हे बीएसएस आाज़ लास्ट चट डे
+  GRU-noisy          कल्ली से पक्का जिम्म जान हाई बीएएस अज़ लस्त चाट दाय
+  Transformer-clean  कल्ल एसई पक्का जीआईएमएम जन है बास आज़ लास्ट चट डे
+  Transformer-noisy  कल्ला एसई पक्का जाइम जान हाई बास आज़ लास्ट चट डे
+  IndicXlit-raw      कॉल एसई पक्का जिम जान है बीएएस आज़ लास्ट्ट चाट दे
+
+id: tweet-4
+tweet: itni garmi mein bahar jaane ka mann hi nahi karta
+input: itni garm menn bahaar jan kaaaa mnn hi nah karta
+gold: इतनी गर्मी में बाहर जाने का मन ही नहीं करता
+  GRU-clean          इटनी गार्म मेन्न बहार जान काए एमएन ही नाह कर्ता
+  GRU-noisy          इटनी गार्म मेन बहार जान किया एमएनएन ही नाह करता
+  Transformer-clean  इटनी जीएआरएम मेन बहार जन काआ एमएनएन ही नह करता
+  Transformer-noisy  आईटीएनआई गर्म मेन बहार जान का एमएनएन ही नाह करता
+  IndicXlit-raw      आईटीएनआई गार्म मेन बहार जान काआ इम्न ही नाह करता
+
+id: tweet-5
+tweet: mood off hai but reason samajh nahi aa raha
+input: mod off ha bot rson samajh nahi a raha
+gold: मूड ऑफ है बट रीजन समझ नहीं आ रहा
+  GRU-clean          मोड ओएफएफ हा बोट रसोन समझ नाही अ रहा
+  GRU-noisy          मोड ओएफएफ हाहा बोट रोसों समझ नाही अा राहा
+  Transformer-clean  एमओडी ओएफएफएफ हा बोट आरएसओएन समझ नही आ रहा
+  Transformer-noisy  एमओडी ओएफएफ हा बोट आरएसओएन समझ नाही एआईए रहा
+  IndicXlit-raw      मोद ओएफएफ हा बॉट ऋषों समझ नही आ रहा
+
+id: tweet-6
+tweet: finally assignment submit kar diya ab sukoon milega
+input: finally assgnment usbmit kar diyaa aab shkon melea
+gold: फाइनली असाइनमेंट सबमिट कर दिया अब सुकून मिलेगा
+  GRU-clean          फाइनली एस्गनमेंट यूएसबीएमआईटी कर डिया आब श्कोन मेलिया
+  GRU-noisy          फिनली एसेनमेंट उस्बमित कर् दिया अब स्कोन मेलिया
+  Transformer-clean  फाइनली एस्ग्नमेंट उस्बमित कर दिया आब श्कों मेलिया
+  Transformer-noisy  फिनली असग्नमेंट उस्बमित कर दिया एबीए स्कोन मेलिया
+  IndicXlit-raw      फाइनली अस्जनमेंट यूएसबीमिट कर दिया एएबी श्कोन मेलिया
+
+id: tweet-7
+tweet: kuch log online bahut sweet hote hain real life mein bilkul alag
+input: kuch log online baahut sweet hote haen reaall ilff mein bilkkul alag
+gold: कुछ लोग ऑनलाइन बहुत स्वीट होते हैं रियल लाइफ में बिल्कुल अलग
+  GRU-clean          कुच लोग ओनलाइन बाहुत स्वीत होते हाएं रियाल आईएलएफएफ में बिल्कु अलग
+  GRU-noisy          कुच लोग ओनलाइन बाहुत स्वीत होटे हाएं रीअल आईएलएफएफ में बिलकुल अलग
+  Transformer-clean  कुच लोग ओनलाइन बाहुत स्वीत होटे हैं रियाल आईएलएफएफ मेइन बिल्क्कुल अलग
+  Transformer-noisy  कुच लोग ओनलाइन बाहुत स्वीत होटे हैन रियल आईएलएफएफ में बिलकुल अलाग
+  IndicXlit-raw      कुच लॉग ओनलाइन बाहुत स्वीट होते हेन रियाल आईएलएफएफ में बिल्क्कुल अलग
+
+id: tweet-8
+tweet: bhai network phir se chala gaya meeting ke beech mein
+input: bhai network phirrr se chalaaa gaaya miting ke beech mein
+gold: भाई नेटवर्क फिर से चला गया मीटिंग के बीच में
+  GRU-clean          भाई नेटवर्क फिर्र से चला गाया माइटिंग ई बीच में
+  GRU-noisy          भाई नेटवर्क फिर से चला गाया मिटिंग के बीच में
+  Transformer-clean  भाई नेटवर्क फिर्र एसई चला गाया मिटिंग के बीच मेइन
+  Transformer-noisy  भाई नेटवर्क फिर एसई चला गाया मिटिंग के बीच में
+  IndicXlit-raw      भाई नेटवर्क फिर्र एसई अचलाआ गाया माइटिंग के बीच में
+
+id: tweet-9
+tweet: chai aur baarish ka combination unbeatable hai
+input: chaeeee owrr baarish kaa combination unbeatble haai
+gold: चाय और बारिश का कॉम्बिनेशन अनबीटेबल है
+  GRU-clean          चीई ओवर्र बारिश का कंबिनेशन अनबीटबल हाई
+  GRU-noisy          चाई ओवर बारिश का कॉम्बिनेशन अनबीटबल हाई
+  Transformer-clean  चैई ओवर बारिश का कंबिनेशन अनबीटबल हाई
+  Transformer-noisy  चै ओवर बारिश का कंबिनेशन अनबीटबल हाई
+  IndicXlit-raw      चाई ओडब्लूआरआर बारिश का अम्बिनेशन अनबीटबल हाई
+
+id: tweet-10
+tweet: sach bolu toh mujhe ye trend bilkul samajh nahi aaya
+input: sach bolo th muzh ye trend beelkul samajhh nahee aaya
+gold: सच बोलूँ तो मुझे ये ट्रेंड बिल्कुल समझ नहीं आया
+  GRU-clean          सच बोलो थ मुज़ ये ट्रेंड बीलकुल समझ नही आया
+  GRU-noisy          सच बोलो थी मुझ ये ट्रेंड बीलकुल समझ नाही आया
+  Transformer-clean  सच बोलो थ मुज़ ये ट्रेंड बीलकुल समझ नही आया
+  Transformer-noisy  सच बोलो थ मुझ ये ट्रेंड बीलकुल समझ नही आया
+  IndicXlit-raw      सच बोलो इथ मुझ ये ट्रेंड बीलकुल समझ्ह नही आया
+

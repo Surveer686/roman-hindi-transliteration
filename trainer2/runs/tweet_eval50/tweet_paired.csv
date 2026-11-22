@@ -1,0 +1,7 @@
+comparison,system_a,system_b,diff_top1,ci_lo,ci_hi,significant
+Q1 architecture, clean-trained,Transformer-clean,GRU-clean,0.0041,-0.0362,0.0431,False
+Q1 architecture, noise-trained,Transformer-noisy,GRU-noisy,0.0183,-0.0183,0.0569,False
+Q2 noise training, GRU,GRU-noisy,GRU-clean,-0.0649,-0.1035,-0.0280,True
+Q2 noise training, Transformer,Transformer-noisy,Transformer-clean,-0.0507,-0.0838,-0.0196,True
+Q3 IndicXlit vs GRU-clean,IndicXlit-raw,GRU-clean,-0.0325,-0.0862,0.0142,False
+Q3 IndicXlit vs Transformer-clean,IndicXlit-raw,Transformer-clean,-0.0365,-0.0900,0.0105,False
